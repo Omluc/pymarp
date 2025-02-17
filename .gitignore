@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment (必要なら)
+venv/
+ENV/
+env/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+
+# MacOS
+.DS_Store
+
+# Editor directories and files (必要に応じて)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# その他、一時ファイル
+*.log
+
+files/

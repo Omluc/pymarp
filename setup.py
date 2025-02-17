@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-import sys
 from setuptools import setup, find_packages, Command
 import pymarp_binary  # __version__などを取得
 
@@ -14,9 +13,11 @@ class DownloadMarpCommand(Command):
     user_options = []
 
     def initialize_options(self):
+        self.run_command("download_marp")
         pass
 
     def finalize_options(self):
+        self.run_command("download_marp")
         pass
 
     def run(self):
